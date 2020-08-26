@@ -1,8 +1,8 @@
 # use remote interpreter in a docker from pycharm
 
 # steps:
-1. `docker build -t remote_int_img .`
-2. `docker run -it remote_int_img`
+1. `docker build -t remoteint .`
+2. `docker run -it remoteint`
 3. start pycharm:
 - add interpreter
 ![image info](./pics/pic1.png)
